@@ -140,10 +140,10 @@ const Work = ({ isDarkMode }) => {
                 </span>
               </div>
               <div className="mt-4 flex gap-4">
-                <a href="https://github.com" className="text-blue-500">
+                <a href="https://github.com/PRATIK5311/MealMate" className="text-blue-500">
                   GitHub
                 </a>
-                <a href="https://live-demo.com" className="text-blue-500">
+                <a href="https://mealmate-frontend-zzgs.onrender.com" className="text-blue-500">
                   Live Demo
                 </a>
               </div>
