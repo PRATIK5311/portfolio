@@ -56,6 +56,116 @@ const Work = ({ isDarkMode }) => {
             >
               <a className="block cursor-pointer" href="#">
                 <Image
+                  src={assets.work4}
+                  alt="user"
+                  className="h-44 w-full overflow-hidden object-cover object-top"
+                />
+              </a>
+              <h3 className="mt-4 text-xl font-semibold">
+                GreenCart Grocery Website
+              </h3>
+              <p className="mt-2 text-sm text-muted">
+                Welcome to GreenCart  revolution that reflects the
+                aspiration of the new generation Grocery Website. On GreenCart, you can become
+                your own Grocery Purchase on Easy Way.
+              </p>
+              <p className="mt-1 text-xs text-muted">April 2025</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  React
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  Tailwind CSS
+                </span>
+
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  JavaScript
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  MongoDB
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  Stripe
+                </span>
+              </div>
+              <div className="mt-4 flex gap-4">
+                <a
+                  href="https://github.com/PRATIK5311/GreenCart"
+                  className="text-blue-500"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="greencart-frontend-kohl.vercel.app"
+                  className="text-blue-500"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1 }}
+              className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+            >
+              <a className="block cursor-pointer" href="#">
+                <Image
+                  src={assets.work3}
+                  alt="user"
+                  className="h-44 w-full overflow-hidden object-cover object-top"
+                />
+              </a>
+              <h3 className="mt-4 text-xl font-semibold">
+                Prescripto Medical Website
+              </h3>
+              <p className="mt-2 text-sm text-muted">
+                Welcome to Prescripto revolution that reflects the
+                aspiration of the new generation Medical Website. On Prescripto, you can become
+                your own Health Records Manager.
+              </p>
+              <p className="mt-1 text-xs text-muted">March 2025</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  React
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  Tailwind CSS
+                </span>
+
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  JavaScript
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  MongoDB
+                </span>
+                <span className="px-2 py-1 text-xs bg-gray-400 rounded">
+                  Stripe
+                </span>
+              </div>
+              <div className="mt-4 flex gap-4">
+                <a
+                  href="https://github.com/PRATIK5311/Prescripto"
+                  className="text-blue-500"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="prescripto-frontend-lyart.vercel.app"
+                  className="text-blue-500"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1 }}
+              className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+            >
+              <a className="block cursor-pointer" href="#">
+                <Image
                   src={assets.work1}
                   alt="user"
                   className="h-44 w-full overflow-hidden object-cover object-top"
