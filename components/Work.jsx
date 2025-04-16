@@ -96,7 +96,7 @@ const Work = ({ isDarkMode }) => {
                   GitHub
                 </a>
                 <a
-                  href="greencart-frontend-kohl.vercel.app"
+                  href="https://greencart-frontend-kohl.vercel.app"
                   className="text-blue-500"
                 >
                   Live Demo
@@ -151,7 +151,7 @@ const Work = ({ isDarkMode }) => {
                   GitHub
                 </a>
                 <a
-                  href="prescripto-frontend-lyart.vercel.app"
+                  href="https://prescripto-frontend-lyart.vercel.app"
                   className="text-blue-500"
                 >
                   Live Demo
