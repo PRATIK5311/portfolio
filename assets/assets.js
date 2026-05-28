@@ -19,7 +19,7 @@ import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
-import profile1_img from "./profile1_img.png";
+import profile from "./profile.png";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -77,7 +77,7 @@ export const assets = {
   github,
   twitter,
   leetCode,
-  profile1_img,
+  profile,
   download_icon,
   hand_icon,
   header_bg_color,

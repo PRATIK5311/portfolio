@@ -85,7 +85,7 @@ const Header = () => {
         transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
       >
         <Image
-          src={assets.profile1_img}
+          src={assets.profile}
           alt="Profile Image"
           className="w-48 h-48 rounded-full object-cover"
         />
